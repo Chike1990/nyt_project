@@ -1,0 +1,84 @@
+/**Use dot for classes**/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 80px;
+}
+.nav {
+  display: flex;
+  color: brown;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 10px;
+}
+.nav-1 a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+.nav-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 18%;
+  align-items: center;
+}
+.button {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  border: 1px solid #326891;
+  font-size: 11px;
+  color: #fff;
+  text-decoration: none;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 700;
+}
+.button-primary {
+  background-color: #567b95;
+}
+.button-primary:hover {
+  background-color: #326891;
+}
+.heading-primary {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  word-spacing: 2.5px;
+  letter-spacing: 1.5px;
+  color: black;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.box-heading {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-style: italic;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 10px;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.box a {
+  text-decoration: none;
+  color: #121212;
+  margin-right: 20px;
+}
+.box i {
+  border-radius: 50%;
+  background-color: #ccc;
+  padding: 10px;
+  font-size: 17px;
+  /* height: 20px;
+  width: 20px; */
+}
