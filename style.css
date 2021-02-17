@@ -166,3 +166,35 @@ header {
   max-width: 945px !important;
   margin: 0 auto;
 }
+
+.inflation {
+  font-size: 14px;
+  line-height: 1.2;
+}
+.inflation-1 {
+  top: -440px;
+  left: 150px;
+  width: 18%;
+  position: relative;
+}
+
+.inflation-2 {
+  top: -880px;
+  left: 300px;
+  width: 18%;
+  position: relative;
+}
+
+.inflation-3 {
+  top: -440px;
+  left: 150px;
+  width: 18%;
+  position: relative;
+}
+
+.inflation-4 {
+  top: -440px;
+  left: 150px;
+  width: 18%;
+  position: relative;
+}
