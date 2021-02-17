@@ -1,5 +1,3 @@
-/** Use dot for classes **/
-
 *,
 *::before,
 *::after {
@@ -178,12 +176,12 @@ header {
   position: relative;
 }
 
-.inflation-2 {
+/* .inflation-2 {
   top: -880px;
   left: 300px;
   width: 18%;
   position: relative;
-}
+} 
 
 .inflation-3 {
   top: -440px;
@@ -197,4 +195,4 @@ header {
   left: 150px;
   width: 18%;
   position: relative;
-}
+} */
