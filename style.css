@@ -108,6 +108,7 @@ header {
 .figure-image-1 {
   width: 100%;
 }
+
 .figure-1 figcaption {
   font-size: 15px;
   width: 80%;
@@ -116,13 +117,16 @@ header {
 .figure-image-2 {
   width: 100%;
 }
+
 .figure-2 figcaption {
   font-size: 15px;
 }
+
 .figure-2 {
   margin-bottom: 50px;
   margin-top: 40px;
 }
+
 .footer {
   margin-top: 50px;
   padding: 0 50px;
@@ -149,6 +153,7 @@ header {
   font-weight: 500;
   height: 23px;
 }
+
 .footer-list-container a:hover {
   text-decoration: underline;
 }
@@ -160,6 +165,7 @@ header {
 .inflation img {
   width: 100%;
 }
+
 .inflation .img-container {
   max-width: 945px !important;
   margin: 0 auto;
@@ -169,6 +175,7 @@ header {
   font-size: 14px;
   line-height: 1.2;
 }
+
 .inflation-1 {
   top: -440px;
   left: 150px;
@@ -181,8 +188,7 @@ header {
   left: 300px;
   width: 18%;
   position: relative;
-} 
-
+}
 .inflation-3 {
   top: -440px;
   left: 150px;
