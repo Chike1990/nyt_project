@@ -133,7 +133,7 @@ header {
 .footer-list-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .footer-list-container ul {
@@ -150,5 +150,19 @@ header {
   font-size: 14px;
   font-weight: 500;
   height: 23px;
-  line-height: 16px;
+}
+.footer-list-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-list-container h4 {
+  text-transform: uppercase;
+}
+
+.inflation img {
+  width: 100%;
+}
+.inflation .img-container {
+  max-width: 945px !important;
+  margin: 0 auto;
 }
