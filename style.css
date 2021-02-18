@@ -136,6 +136,10 @@ header {
   padding: 0 50px;
 }
 
+.footer hr {
+  color: white;
+}
+
 .footer-list-container {
   display: flex;
   justify-content: space-between;
@@ -166,13 +170,44 @@ header {
   text-transform: uppercase;
 }
 
+/* formating the subscribe section of the footer */
+.footer-subscribe {
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+  width: 15%;
+}
+.footer-subscribe-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-subscribe-list a {
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.footer-subscribe svg {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+/* Positioning the inflation */
 .inflation img {
   width: 100%;
+  height: auto;
 }
 
-.inflation .img-container {
+.img-container {
   max-width: 945px !important;
   margin: 0 auto;
+  position: relative;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  color: #333;
+}
+
+.img-container div {
+  position: absolute;
 }
 
 .inflation {
@@ -181,40 +216,76 @@ header {
 }
 
 .inflation-1 {
-  top: -440px;
-  left: 150px;
-  width: 18%;
-  position: relative;
-}
-/* 
-.footer-2 {
-  margin-top: 50px;
-  padding: 0 50px;
+  top: 24.8264%;
+  left: 0.0436%;
+  width: 228px;
 }
 
-.last-footer-list-container {
+.inflation-2 {
+  top: 24.8264%;
+  left: 25.5619%;
+  width: 228px;
+}
+
+.inflation-3 {
+  top: 24.8264%;
+  left: 51.08%;
+  width: 228px;
+}
+
+.inflation-4 {
+  top: 24.8264%;
+  left: 76.5982%;
+  width: 228px;
+}
+
+.inflation-5 {
+  top: 73.4375%;
+  left: 0.0436%;
+  width: 228px;
+}
+
+.inflation-6 {
+  top: 73.4375%;
+  left: 25.5619%;
+  width: 228px;
+}
+
+.inflation-7 {
+  top: 73.4375%;
+  left: 51.08%;
+  width: 228px;
+}
+
+.inflation-8 {
+  top: 73.4375%;
+  left: 76.5982%;
+  width: 228px;
+}
+
+/* Styles for the footer navigation */
+.footer-nav {
+  border-top: 1px solid #ccc;
+  /* border-bottom: 1px solid #333; */
+  padding: 15px 0 30px 0;
+  margin-top: 20px;
+}
+
+.footer-nav ul {
   display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-
-.last-footer-list-container {
+  flex-wrap: nowrap;
   list-style: none;
+  font-size: 12px;
+  justify-content: space-between;
 }
 
-.last-footer-list-container a {
-  color: rgb(0, 0, 0);
-  display: flex;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+.footer-nav a {
   text-decoration: none;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 14px;
-  font-weight: 500;
-  height: 23px;
-  align-items: center;
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  padding: 10px 0;
 }
 
-.last-footer-list-container a:hover {
+.footer-nav a:hover {
   text-decoration: underline;
-} */
+}
