@@ -66,6 +66,10 @@ header {
   font-size: 25px;
   word-spacing: 2.5px;
   letter-spacing: 1.5px;
+}
+
+.heading-primary a {
+  text-decoration: none;
   color: black;
 }
 
@@ -182,3 +186,35 @@ header {
   width: 18%;
   position: relative;
 }
+/* 
+.footer-2 {
+  margin-top: 50px;
+  padding: 0 50px;
+}
+
+.last-footer-list-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.last-footer-list-container {
+  list-style: none;
+}
+
+.last-footer-list-container a {
+  color: rgb(0, 0, 0);
+  display: flex;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  align-items: center;
+}
+
+.last-footer-list-container a:hover {
+  text-decoration: underline;
+} */
