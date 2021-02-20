@@ -202,7 +202,7 @@ header {
   font-weight: 700;
   color: rgb(0, 0, 0);
   border-bottom: 1px solid rgb(226, 226, 226);
-  margin-top: 0px;
+  margin-top: 0.1px;
   margin-bottom: 15px;
   padding-bottom: 12px;
   font-size: 20px;
@@ -217,15 +217,15 @@ header {
   flex-direction: row;
   text-decoration: none;
 }
+
 .aside img {
   width: 80px;
   height: 80px;
 }
 
 .aside h3 {
-  width: 70%;
-  margin: auto 0px auto 10px;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  margin: auto 0.1px auto 10px;
+  font-family: georgia, "times new roman";
   font-size: 14px;
   line-height: 17px;
   width: 100%;
@@ -275,6 +275,7 @@ header {
 
 .footer-list-container ul {
   list-style: none;
+  padding: 0;
 }
 
 .footer-list-container a {
@@ -314,10 +315,6 @@ header {
   text-transform: uppercase;
 }
 
-.footer-list-container ul {
-  padding: 0;
-}
-
 /* formating the subscribe section of the footer */
 .footer-subscribe {
   border-left: 1px solid #ccc;
@@ -341,6 +338,9 @@ header {
 /* Positioning the inflation */
 .inflation {
   margin-bottom: 120px;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-top: 20px;
 }
 
 .inflation img {
@@ -358,12 +358,6 @@ header {
 
 .img-container div {
   position: absolute;
-}
-
-.inflation {
-  font-size: 14px;
-  line-height: 1.2;
-  margin-top: 20px;
 }
 
 .inflation-1 {
@@ -445,9 +439,6 @@ header {
   z-index: 900;
   cursor: pointer;
 }
-
-/* .read {
-} */
 
 .read-text {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
