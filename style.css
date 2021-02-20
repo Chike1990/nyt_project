@@ -225,7 +225,7 @@ header {
 
 .aside h3 {
   margin: auto 0.1px auto 10px;
-  font-family: "times new roman";
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 14px;
   line-height: 17px;
   width: 100%;
